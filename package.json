@@ -57,5 +57,5 @@
         "debug_brk": "node --inspect=0.0.0.0:9229 --inspect-brk $NODE_OPTIONS node_modules/node-red/red.js $FLOWS",
         "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS"
     },
-    "version": "0.0.1"
+    "version": "1.0.0"
 }
