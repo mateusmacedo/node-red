@@ -46,12 +46,12 @@
     },
     "description": "A Node-RED Platform",
     "engines": {
-        "node": ">=18"
+        "node": ">=20"
     },
-    "license": "Unlicense",
+    "license": "MIT",
     "main": "node_modules/node-red/red/red.js",
     "name": "node-red-platform",
-    "private": true,
+    "private": false,
     "scripts": {
         "debug": "node --inspect=0.0.0.0:9229 $NODE_OPTIONS node_modules/node-red/red.js $FLOWS",
         "debug_brk": "node --inspect=0.0.0.0:9229 --inspect-brk $NODE_OPTIONS node_modules/node-red/red.js $FLOWS",
